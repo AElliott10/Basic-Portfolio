@@ -13,10 +13,10 @@ body {
 header {
     margin-bottom: 10px;
     background-color: #ffffff;
+    margin: 0 auto;
 }
 
 .header-container {
-    height: 100%;
     margin: 0 auto;
     max-width: 960px;
 }
@@ -38,11 +38,8 @@ header {
     display: inline-block;
     top: 0;
     text-align: none;
+    text-decoration: none;
  }  
-
- .menu li a {
-     text-decoration: none;
- }
 
  h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -90,6 +87,7 @@ h2 {
     height: 75px;
     border-bottom-color: #666666;
     border-bottom-style: solid;
+    border-bottom-color: #777777;
     left: 450px;
     margin: 0px 10px 10px 10px;
     padding: 25px 10px 10px 10px;
@@ -117,8 +115,55 @@ border-top-style: solid;
 border-top-width: .2em;
 }
 
-img {
+img{
     float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+/*--section is for content page*/
+
+#name-box{
+border-color: #777777;
+border: solid;
+height: 30px;
+width: 900;
+}
+
+#email-box{
+    border-color: #777777;
+    border-top-width: .2em;
+    border: solid;
+    height: 30px;
+    width: 900;
+   
+    }
+#message-box{
+        border-color: #777777;
+        border-top-width: .2em;
+        border: solid;
+        height: 100px;
+        width: 900;
+}
+        
+#submit-button{
+    border-color: #777777;
+    border-top-width: .2em;
+    border: solid;
+    height: 30px;
+    width: 150px;
+    background-color: #4aaaa5;
+    font-size: 50px;
+    font: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 5px;
+}
+
+#image-1{
+    float: right;
     margin-right: 15px;
     margin-left: 10px;
     height: 150px;
